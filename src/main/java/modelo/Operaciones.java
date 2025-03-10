@@ -5,7 +5,7 @@ import javabeans.*;
 import java.util.*;
 
 public class Operaciones {
-    // Método para obtener conexión usando H2
+    // Metodo para obtener conexión usando H2
     public Connection getConnection() {
         Connection cn = null;
         try {

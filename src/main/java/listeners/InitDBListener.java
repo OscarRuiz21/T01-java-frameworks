@@ -30,7 +30,7 @@ public class InitDBListener implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        // Aquí podrías cerrar conexiones o limpiar recursos si fuera necesario
+
     }
 }
 
