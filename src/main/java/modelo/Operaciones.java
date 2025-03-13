@@ -11,7 +11,7 @@ public class Operaciones {
         try {
             // Cargar el driver H2
             Class.forName("org.h2.Driver");
-            // Conectar a la base de datos H2 (archivo en el directorio home o en memoria)
+            // Conectar a la base de datos H2 (archivo en memoria)
             cn = DriverManager.getConnection("jdbc:h2:mem:mensajes;DB_CLOSE_DELAY=-1", "sa", "pas");
         } catch (Exception e) {
             e.printStackTrace();
